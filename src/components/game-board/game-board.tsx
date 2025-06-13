@@ -1,4 +1,4 @@
-import { Entypo } from "@expo/vector-icons";
+import { AntDesign, Entypo } from "@expo/vector-icons";
 import { router } from "expo-router";
 import React from "react";
 import {
@@ -8,6 +8,7 @@ import {
   View
 } from "react-native";
 import { GameCell } from "../game-cell/game-cell";
+import { GameRulesModal } from "../game-rules-modal/game-rules-modal";
 import { useGameBoard } from "./hook";
 import { GameBoardProps } from "./props";
 
@@ -16,12 +17,13 @@ export const GameBoard: React.FC<GameBoardProps> = (props) => {
     currentPlayer,
     moveCount,
     board,
-    dropPiece
+    dropPiece,
+    showRules,
+    handleChangeShowRules
   } = useGameBoard(props);
 
   return (
     <SafeAreaView className="flex-1 bg-black">
-      {/* Topo */}
       <View className="flex-row items-center justify-between px-8 py-3 border-b border-neutral-700">
         <View
           className={`w-10 h-10 rounded-md ${
@@ -38,7 +40,6 @@ export const GameBoard: React.FC<GameBoardProps> = (props) => {
         />
       </View>
 
-      {/* Tabuleiro */}
       <View className="flex-1 items-center justify-center">
         <View className="flex-row items-end justify-center">
           <View className="w-4 h-52 bg-orange-500 rounded-t-md mr-1" />
@@ -63,10 +64,16 @@ export const GameBoard: React.FC<GameBoardProps> = (props) => {
         </View>
       </View>
 
-      {/* Botão voltar */}
-      <TouchableOpacity onPress={() => router.back()} className="p-1 opacity-80">
-        <Entypo name="arrow-with-circle-left" size={24} color="white" />
-      </TouchableOpacity>
+      <View className="flex-row justify-between items-center">
+        <TouchableOpacity onPress={() => router.back()} className="p-1 opacity-80">
+          <Entypo name="arrow-with-circle-left" size={24} color="white" />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={() => handleChangeShowRules(true)} className="p-1 opacity-80">
+          <AntDesign name="questioncircleo" size={24} color="white" />
+        </TouchableOpacity>
+      </View>
+
+      <GameRulesModal forceShow={showRules} onClose={() => handleChangeShowRules(false)} />
     </SafeAreaView>
   );
 };

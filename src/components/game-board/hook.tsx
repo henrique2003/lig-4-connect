@@ -12,6 +12,7 @@ export const useGameBoard = ({ singlePlayer }: GameBoardProps) => {
   const [board, setBoard] = useState(GameBoardUtils.createEmptyBoard());
   const [currentPlayer, setCurrentPlayer] = useState<Player>(Player.Red);
   const [moveCount, setMoveCount] = useState(0);
+  const [showRules, setShowRules] = useState(false);
 
   const botPlayer = Player.Yellow;
   const isSinglePlayer = singlePlayer;
@@ -38,6 +39,10 @@ export const useGameBoard = ({ singlePlayer }: GameBoardProps) => {
       dropSound.current?.unloadAsync(); // limpa ao desmontar
     };
   }, []);
+
+  function handleChangeShowRules(show: boolean): void {
+    setShowRules(show);
+  }
 
   const getBestMove = (board: number[][], depth: number, botPlayer: number): number => {
     const opponent = botPlayer === 1 ? 2 : 1;
@@ -93,7 +98,6 @@ export const useGameBoard = ({ singlePlayer }: GameBoardProps) => {
     bestCols.sort((a, b) => Math.abs(BOARD.COLS / 2 - a) - Math.abs(BOARD.COLS / 2 - b));
     return bestCols[Math.floor(Math.random() * Math.min(2, bestCols.length))]; // sorteia entre os melhores
   };
-
 
   const minimax = (
     board: number[][],
@@ -210,6 +214,8 @@ export const useGameBoard = ({ singlePlayer }: GameBoardProps) => {
     currentPlayer,
     moveCount,
     board,
-    dropPiece
+    dropPiece,
+    handleChangeShowRules,
+    showRules
   }
 }
