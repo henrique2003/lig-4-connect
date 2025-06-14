@@ -5,7 +5,7 @@ import { View } from 'react-native';
 
 export const GameSingleplayer: React.FC = () => {
   return (
-    <View className="flex-1 items-center justify-center bg-black px-4">
+    <View className="flex-1 items-center justify-center bg-default-primary px-4">
       <GameBoard singlePlayer />
       <GameRulesModal />
     </View>

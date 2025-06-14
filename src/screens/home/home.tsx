@@ -4,8 +4,8 @@ import { Image, Text, TouchableOpacity, View } from "react-native"
 
 export const Home: React.FC = () => {
   return (
-    <View className="flex-1 bg-blue-primary justify-center items-center px-8">
-      <Image source={logo} width={100} height={20} className="w-[300px] h-32 mb-20" />
+    <View className="flex-1 bg-default-primary justify-center items-center px-8">
+      <Image source={logo} width={100} height={50} className="w-[320px] h-[180px] mb-20" />
 
       <TouchableOpacity
         className="border border-blue-600 py-4 px-8 w-full mb-6 rounded-md"

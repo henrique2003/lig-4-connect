@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "infinity-connect",
-    "slug": "infinity-connect",
+    "name": "lig-4-connect",
+    "slug": "lig-4-connect",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "infinity-connect",
+    "scheme": "lig-4-connect",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -14,7 +14,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "rgba(26, 26, 33, 1)"
       },
       "edgeToEdgeEnabled": true
     },
@@ -30,8 +30,8 @@
         {
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "resizeMode": "cover",
+          "backgroundColor": "rgba(26, 26, 33, 1)"
         }
       ],
       "expo-font"
