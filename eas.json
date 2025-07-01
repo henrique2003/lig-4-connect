@@ -8,5 +8,12 @@
         "distribution": "store"
       }
     }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "ascAppId": "6748036661"
+      }
+    }
   }
 }
