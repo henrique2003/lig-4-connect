@@ -24,7 +24,7 @@ export const GameBoard: React.FC<GameBoardProps> = (props) => {
 
   return (
     <SafeAreaView className="flex-1 bg-default-primary">
-      <View className="flex-row items-center justify-between px-8 py-3 border-b border-neutral-700">
+      <View className="flex-row items-center justify-between px-8 py-3 border-b border-neutral-700 w-full">
         <View
           className={`w-10 h-10 rounded-md ${
             currentPlayer === 1 ? "opacity-100 scale-110" : "opacity-40"
@@ -64,7 +64,7 @@ export const GameBoard: React.FC<GameBoardProps> = (props) => {
         </View>
       </View>
 
-      <View className="flex-row justify-between items-center">
+      <View className="flex-row justify-between items-center w-full">
         <TouchableOpacity onPress={() => router.back()} className="p-1 opacity-80">
           <Entypo name="arrow-with-circle-left" size={24} color="white" />
         </TouchableOpacity>
