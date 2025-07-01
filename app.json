@@ -10,8 +10,8 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.lig4connect",
-      "buildNumber": "2"
+      "bundleIdentifier": "com.devhenrique.lig4connect",
+      "buildNumber": "3"
     },
     "android": {
       "adaptiveIcon": {
@@ -19,7 +19,7 @@
         "backgroundColor": "#1a1a21"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.anonymous.lig4connect"
+      "package": "com.devhenrique.lig4connect"
     },
     "web": {
       "bundler": "metro",
