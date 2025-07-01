@@ -9,7 +9,7 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "buildNumber": "2",
+      "buildNumber": "3",
       "supportsTablet": true,
       "bundleIdentifier": "com.devhenrique.lig4connect",
       "infoPlist": {
