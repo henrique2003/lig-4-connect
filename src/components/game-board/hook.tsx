@@ -15,14 +15,13 @@ export const useGameBoard = ({ singlePlayer }: GameBoardProps) => {
   const [showRules, setShowRules] = useState(false);
 
   const botPlayer = Player.Yellow;
-  const isSinglePlayer = singlePlayer;
 
   const dropSound = useRef<Audio.Sound | null>(null);
 
   useEffect(() => {
-    if (isSinglePlayer && currentPlayer === botPlayer) {
+    if (singlePlayer && currentPlayer === botPlayer) {
       const botMove = getBestMove(board, BOARD.MAX_DEPTH, Player.Yellow);
-      setTimeout(() => dropPiece(botMove), 500);
+      setTimeout(() => dropPiece(botMove, true), 500);
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentPlayer]);
@@ -146,7 +145,11 @@ export const useGameBoard = ({ singlePlayer }: GameBoardProps) => {
     }
   };
 
-  const dropPiece = async (colIndex: number) => {
+  const dropPiece = async (colIndex: number, isBotPlayer?: boolean) => {
+    if (singlePlayer && currentPlayer === botPlayer && !isBotPlayer) {
+      return;
+    }
+
     const newBoard = board.map((row) => [...row]);
 
     for (let row = BOARD.ROWS - 1; row >= 0; row--) {
