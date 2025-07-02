@@ -1,5 +1,6 @@
 import { drop, dropLine } from "@/src/assets";
 import { Audio } from "expo-av";
+import { goBack } from "expo-router/build/global-state/routing";
 import { useEffect, useRef, useState } from "react";
 import {
   Alert
@@ -167,7 +168,13 @@ export const useGameBoard = ({ singlePlayer }: GameBoardProps) => {
             `Jogador ${Player.Red === currentPlayer ? "Vermelho" : "Amarelo"} venceu!`,
             "Deseja jogar novamente?",
             [
-              { text: "Cancelar", style: "cancel" },
+              {
+                text: "Inicio",
+                style: "cancel",
+                onPress: () => {
+                  goBack();
+                },
+              },
               {
                 text: "Jogar novamente",
                 onPress: () => {
@@ -180,7 +187,8 @@ export const useGameBoard = ({ singlePlayer }: GameBoardProps) => {
           );
         }
 
-        if (updatedMoveCount % 10 === 0) {
+        const isBoardFull = GameBoardUtils.isBoardFull(newBoard);
+        if (updatedMoveCount % 10 === 0 || (isBoardFull && updatedMoveCount % 10 !== 0)) {
           newBoard.pop();
           newBoard.unshift(Array(BOARD.COLS).fill(0));
 
