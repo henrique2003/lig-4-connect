@@ -159,6 +159,8 @@ export const useGameBoard = ({ singlePlayer }: GameBoardProps) => {
         const updatedMoveCount = moveCount + 1;
 
         playDropSound();
+        setBoard(newBoard);
+        setCurrentPlayer(currentPlayer === Player.Red ? Player.Yellow : Player.Red);
 
         if (checkWin(newBoard, row, colIndex, currentPlayer)) {
           return Alert.alert(
@@ -185,8 +187,6 @@ export const useGameBoard = ({ singlePlayer }: GameBoardProps) => {
           playLineDropSound();
         }
 
-        setBoard(newBoard);
-        setCurrentPlayer(currentPlayer === Player.Red ? Player.Yellow : Player.Red);
         return setMoveCount(updatedMoveCount);
       }
     }
