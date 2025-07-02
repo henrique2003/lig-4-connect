@@ -64,7 +64,7 @@ export const GameBoard: React.FC<GameBoardProps> = (props) => {
         </View>
       </View>
 
-      <View className="flex-row justify-between items-center w-full">
+      <View className="flex-row justify-between items-center w-full pb-2">
         <TouchableOpacity onPress={() => router.back()} className="p-1 opacity-80">
           <Entypo name="arrow-with-circle-left" size={24} color="white" />
         </TouchableOpacity>
