@@ -9,10 +9,12 @@
     "ios": "expo run:ios",
     "web": "expo start --web",
     "lint": "expo lint",
-    "build:ios": "npm run bump:ios && eas build --platform ios --profile production",
+    "prebuild:clean": "npx expo prebuild --clean",
+    "build:ios": "eas build --platform ios --profile production",
+    "build:ios:inspect": "eas build:inspect --platform ios --profile production",
     "submit:ios": "eas submit --platform ios --profile production",
     "publish:ios": "npm run build:ios && npm run submit:ios",
-    "workflow:ios": "npm run bump:ios && npx eas-cli@latest workflow:run ./.eas/workflows/publish-ios.yml",
+    "workflow:ios": "npx eas-cli@latest workflow:run ./.eas/workflows/publish-ios.yml",
     "bump:ios": "node ./scripts/bump-ios-build.js && git add . && git commit -m 'chore: update bump build number iOS'"
   },
   "dependencies": {

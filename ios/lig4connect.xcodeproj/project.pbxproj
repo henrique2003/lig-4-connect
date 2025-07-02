@@ -9,27 +9,27 @@
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		846FDE862744EE21A51769EA /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5976C5503101D65EFED430 /* ExpoModulesProvider.swift */; };
-		9DD523C4EC1854FECA77AA4B /* libPods-lig4connect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA59E7690DBFE16EF7B2A326 /* libPods-lig4connect.a */; };
-		B4B9C94176D984DFBFD826BC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 83E7351E4ECE798431DE13DF /* PrivacyInfo.xcprivacy */; };
+		45FF9484C83E13F384477B03 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627E1DEAE4AF9A0E77660E75 /* ExpoModulesProvider.swift */; };
+		A16AB42FA1A4F354A883133D /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 159273DAABA004ABDD678E34 /* PrivacyInfo.xcprivacy */; };
+		B67B2849A4C71CF5FD85DDE0 /* libPods-lig4connect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1EA68990006C3A6F8D7E39 /* libPods-lig4connect.a */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0D111C94B7733C1FDED0BBA4 /* Pods-lig4connect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lig4connect.release.xcconfig"; path = "Target Support Files/Pods-lig4connect/Pods-lig4connect.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* lig4connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lig4connect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = lig4connect/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = lig4connect/Info.plist; sourceTree = "<group>"; };
-		83E7351E4ECE798431DE13DF /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = lig4connect/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		A5741AC30053741639108B7D /* Pods-lig4connect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lig4connect.debug.xcconfig"; path = "Target Support Files/Pods-lig4connect/Pods-lig4connect.debug.xcconfig"; sourceTree = "<group>"; };
+		159273DAABA004ABDD678E34 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = lig4connect/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		2E2BB372BA703DC70600040E /* Pods-lig4connect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lig4connect.release.xcconfig"; path = "Target Support Files/Pods-lig4connect/Pods-lig4connect.release.xcconfig"; sourceTree = "<group>"; };
+		627E1DEAE4AF9A0E77660E75 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-lig4connect/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		7A1EA68990006C3A6F8D7E39 /* libPods-lig4connect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lig4connect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = lig4connect/SplashScreen.storyboard; sourceTree = "<group>"; };
-		AD5976C5503101D65EFED430 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-lig4connect/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
+		EB38854C79A49C1761750C41 /* Pods-lig4connect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lig4connect.debug.xcconfig"; path = "Target Support Files/Pods-lig4connect/Pods-lig4connect.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = lig4connect/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* lig4connect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "lig4connect-Bridging-Header.h"; path = "lig4connect/lig4connect-Bridging-Header.h"; sourceTree = "<group>"; };
-		FA59E7690DBFE16EF7B2A326 /* libPods-lig4connect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lig4connect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DD523C4EC1854FECA77AA4B /* libPods-lig4connect.a in Frameworks */,
+				B67B2849A4C71CF5FD85DDE0 /* libPods-lig4connect.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,26 +53,36 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				83E7351E4ECE798431DE13DF /* PrivacyInfo.xcprivacy */,
+				159273DAABA004ABDD678E34 /* PrivacyInfo.xcprivacy */,
 			);
 			name = lig4connect;
 			sourceTree = "<group>";
 		};
-		1FB8A9385DEF0B6B7C086A1B /* lig4connect */ = {
+		22B72C916EE0530A5702480A /* ExpoModulesProviders */ = {
 			isa = PBXGroup;
 			children = (
-				AD5976C5503101D65EFED430 /* ExpoModulesProvider.swift */,
+				A29707A1FF9C9DD69AA19983 /* lig4connect */,
 			);
-			name = lig4connect;
+			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				FA59E7690DBFE16EF7B2A326 /* libPods-lig4connect.a */,
+				7A1EA68990006C3A6F8D7E39 /* libPods-lig4connect.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5365FFF6E2A03DF2CFE05E1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB38854C79A49C1761750C41 /* Pods-lig4connect.debug.xcconfig */,
+				2E2BB372BA703DC70600040E /* Pods-lig4connect.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -89,8 +99,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				EA136A3D8C7A0A23D5BF4273 /* Pods */,
-				D0E700A235F02A21A40714EE /* ExpoModulesProviders */,
+				5365FFF6E2A03DF2CFE05E1C /* Pods */,
+				22B72C916EE0530A5702480A /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -105,6 +115,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A29707A1FF9C9DD69AA19983 /* lig4connect */ = {
+			isa = PBXGroup;
+			children = (
+				627E1DEAE4AF9A0E77660E75 /* ExpoModulesProvider.swift */,
+			);
+			name = lig4connect;
+			sourceTree = "<group>";
+		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,24 +130,6 @@
 			);
 			name = Supporting;
 			path = lig4connect/Supporting;
-			sourceTree = "<group>";
-		};
-		D0E700A235F02A21A40714EE /* ExpoModulesProviders */ = {
-			isa = PBXGroup;
-			children = (
-				1FB8A9385DEF0B6B7C086A1B /* lig4connect */,
-			);
-			name = ExpoModulesProviders;
-			sourceTree = "<group>";
-		};
-		EA136A3D8C7A0A23D5BF4273 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A5741AC30053741639108B7D /* Pods-lig4connect.debug.xcconfig */,
-				0D111C94B7733C1FDED0BBA4 /* Pods-lig4connect.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,13 +140,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "lig4connect" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				0FD3B8339B905949C1F5142D /* [Expo] Configure project */,
+				53F10EE706ECA6AB9155B494 /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				D37AB9E01B4F16956F2462C7 /* [CP] Embed Pods Frameworks */,
+				05016CA129DF4BF9CB306E6C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,7 +196,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				B4B9C94176D984DFBFD826BC /* PrivacyInfo.xcprivacy in Resources */,
+				A16AB42FA1A4F354A883133D /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +217,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "if [[ -f \"$PODS_ROOT/../.xcode.env\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env\"\nfi\nif [[ -f \"$PODS_ROOT/../.xcode.env.local\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.local\"\nfi\n\n# The project root by default is one level up from the ios directory\nexport PROJECT_ROOT=\"$PROJECT_DIR\"/..\n\nif [[ \"$CONFIGURATION\" = *Debug* ]]; then\n  export SKIP_BUNDLING=1\nfi\nif [[ -z \"$ENTRY_FILE\" ]]; then\n  # Set the entry JS file using the bundler's entry resolution.\n  export ENTRY_FILE=\"$(\"$NODE_BINARY\" -e \"require('expo/scripts/resolveAppEntry')\" \"$PROJECT_ROOT\" ios absolute | tail -n 1)\"\nfi\n\nif [[ -z \"$CLI_PATH\" ]]; then\n  # Use Expo CLI\n  export CLI_PATH=\"$(\"$NODE_BINARY\" --print \"require.resolve('@expo/cli', { paths: [require.resolve('expo/package.json')] })\")\"\nfi\nif [[ -z \"$BUNDLE_COMMAND\" ]]; then\n  # Default Expo CLI command for bundling\n  export BUNDLE_COMMAND=\"export:embed\"\nfi\n\n# Source .xcode.env.updates if it exists to allow\n# SKIP_BUNDLING to be unset if needed\nif [[ -f \"$PODS_ROOT/../.xcode.env.updates\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.updates\"\nfi\n# Source local changes to allow overrides\n# if needed\nif [[ -f \"$PODS_ROOT/../.xcode.env.local\" ]]; then\n  source \"$PODS_ROOT/../.xcode.env.local\"\nfi\n\n`\"$NODE_BINARY\" --print \"require('path').dirname(require.resolve('react-native/package.json')) + '/scripts/react-native-xcode.sh'\"`\n\n";
+		};
+		05016CA129DF4BF9CB306E6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lig4connect/Pods-lig4connect-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lig4connect/Pods-lig4connect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
 		08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -240,7 +258,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0FD3B8339B905949C1F5142D /* [Expo] Configure project */ = {
+		53F10EE706ECA6AB9155B494 /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -335,24 +353,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lig4connect/Pods-lig4connect-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D37AB9E01B4F16956F2462C7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-lig4connect/Pods-lig4connect-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lig4connect/Pods-lig4connect-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -361,7 +361,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				846FDE862744EE21A51769EA /* ExpoModulesProvider.swift in Sources */,
+				45FF9484C83E13F384477B03 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +370,7 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5741AC30053741639108B7D /* Pods-lig4connect.debug.xcconfig */;
+			baseConfigurationReference = EB38854C79A49C1761750C41 /* Pods-lig4connect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -406,7 +406,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0D111C94B7733C1FDED0BBA4 /* Pods-lig4connect.release.xcconfig */;
+			baseConfigurationReference = 2E2BB372BA703DC70600040E /* Pods-lig4connect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

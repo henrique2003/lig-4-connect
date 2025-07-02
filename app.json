@@ -11,7 +11,7 @@
     "ios": {
       "buildNumber": "3",
       "supportsTablet": true,
-      "bundleIdentifier": "com.devhenrique.lig4connect",
+      "bundleIdentifier": "com.anonymous.lig4connect",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
@@ -22,7 +22,7 @@
         "backgroundColor": "#1a1a21"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.devhenrique.lig4connect"
+      "package": "com.anonymous.lig4connect"
     },
     "web": {
       "bundler": "metro",
